@@ -63,7 +63,6 @@ jobs:
         sed -i '/CONFIG_FIRMWARE_INCLUDE_FFMPEG_NEW/d' configs/templates/$TNAME.config   #删除配置项FFMPEG_NEW
         sed -i '/CONFIG_FIRMWARE_INCLUDE_XUPNPD/d' configs/templates/$TNAME.config       #删除配置项XUPNPD
         sed -i '/CONFIG_FIRMWARE_INCLUDE_DOGCOM/d' configs/templates/$TNAME.config       #删除配置项DOGCOM
-        sed -i '/CONFIG_FIRMWARE_INCLUDE_SHADOWSOCKS/d' configs/templates/$TNAME.config  #删除配置项SS plus+
         sed -i '/CONFIG_FIRMWARE_INCLUDE_DNSFORWARDER/d' configs/templates/$TNAME.config #删除配置项DNSFORWARDER
         sed -i '/CONFIG_FIRMWARE_INCLUDE_VLMCSD/d' configs/templates/$TNAME.config       #删除配置项VLMCSD
         sed -i '/CONFIG_FIRMWARE_INCLUDE_TTYD/d' configs/templates/$TNAME.config         #删除配置项TTYD
